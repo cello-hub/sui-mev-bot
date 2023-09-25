@@ -209,7 +209,7 @@ async function createCleanUpTransaction(
   }
   const result = await client.devInspectTransactionBlock({
     transactionBlock: tx,
-    sender: '0xbab1ae46252d520bb8d82e6d8f2b83acb9c1c4226944516b4c6c45b0d00ef17d'
+    sender: '0x6c8adbafc9c7082c7b362d262aef7d1dc73589cb6bab27f235468cfa844f097f'
   })
 
   const costSummary = result.effects.gasUsed
